@@ -1,0 +1,173 @@
+h1 {
+  text-align:center;
+}
+
+.button{
+   
+  border: 2px solid white;
+  color: black;
+  font-weight:bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+  border-radius:5px;
+  background-color: cornflowerblue;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  transition-duration:0.4s;
+  cursor:pointer;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 40%;
+}
+
+
+
+input[type=text] {
+ 
+ box-sizing: border-box;
+ border: 2px solid #ccc;
+ font-size: 24px;
+ background-color: rgb(61, 94, 100);
+ border-radius: 10px;
+ background-position: 10px 10px; 
+ background-repeat: no-repeat;
+ padding: 12px 20px 12px 30px;
+ text-decoration: cornsilk;
+}
+
+
+  
+
+
+.navbar {
+  width: 100%;
+  background-color: rgb(26, 20, 20);
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #264b49;
+}
+
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.navbar .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.navbar .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar .sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.navbar .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navbar span{
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.social{
+  margin-top: 400px;
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+}
+
+.container ul li {
+  display: inline;
+  padding: 50px 10px;
+}
+
+
+
+
+
+#outputbox
+{
+  position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 1285px;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(231, 25, 197);
+    color:white;
+    font-size: 15;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+
